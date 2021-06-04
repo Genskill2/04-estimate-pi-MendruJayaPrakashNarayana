@@ -24,7 +24,7 @@ int main(void) {
   }
 }
 float wallis_pi(int i)
-{
+ {
     float a =1;
     if (i==0)
     return 2*a;
@@ -33,4 +33,4 @@ float wallis_pi(int i)
      a *= 4.0*n*n/(4*n*n-1);
      }
          return 2*a;
-}
+ }
